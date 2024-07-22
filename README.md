@@ -1,0 +1,10 @@
+Task Manager
+The Task Manager is a full-stack task management application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). This application allows users to create, update, delete, and filter tasks with user authentication features.
+
+To run this project, you need to have Node.js and MongoDB installed on your machine. The project dependencies are managed using npm (Node Package Manager). The key dependencies used in this project include Express.js for server-side logic, Mongoose for MongoDB object modeling, React.js for building the user interface, Redux for state management, and Axios for making HTTP requests. Additionally, JSON Web Token (JWT) is used for user authentication, bcrypt.js for password hashing, and dotenv for environment variable management.
+
+First, clone the repository to your local machine. Navigate to the project's root directory and run npm install to install the necessary dependencies for both the server and client. You can start the server by navigating to the server directory and running npm start, which will start the Express server on http://localhost:5000. Similarly, navigate to the client directory and run npm start to start the React development server on http://localhost:3000. Ensure that MongoDB is running on your local machine or provide the MongoDB URI in a .env file in the server directory.
+
+The project uses specific versions of the following major dependencies: Express.js (v4.17.1), Mongoose (v5.11.15), React (v17.0.1), Redux (v4.0.5), and Axios (v0.21.1). For development, the project relies on tools such as Nodemon (v2.0.7) to automatically restart the server on file changes.
+
+In summary, the Task Manager project is a robust application demonstrating the capabilities of the MERN stack, with comprehensive features and user-friendly interfaces. Ensure you have the required versions of Node.js and MongoDB installed, and follow the installation and usage instructions to get the application up and running. Happy coding!
