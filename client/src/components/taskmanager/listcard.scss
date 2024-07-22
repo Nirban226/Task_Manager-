@@ -1,0 +1,28 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0), 0 6px 20px 0 rgba(255, 255, 255, 0.0);
+    margin: 1rem auto;
+    width: 90%;
+    backdrop-filter: blur(3px);
+
+    li {
+        padding: 1rem;
+        flex: 1;
+
+        button {
+            margin: 5px;
+        }
+    }
+
+    p {
+        font-size: 14px;
+        color: white;
+    }
+}
+
+.completed {
+    background-color: green;
+    color: white;
+}
